@@ -43,7 +43,7 @@ def main():
         # Now look for approved CAN issues
         for i in can_issues:
             approver = i.who_approved()
-            if gsd_repo.approved_user(approver):
+            if cvedb_repo.approved_user(approver):
                 # Flip this to a CVEDB
                 cvedb_repo.can_to_cvedb(i)
                 i.can_to_cvedb()
