@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: CVEDB
+Version: 0.0.1
+Summary: The CVEDB python bot and helpers
+Home-page: https://github.com/CVEDB/tools
+Author: w3security
+Author-email: alerts@log4j.codes
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache 2 License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+
+
