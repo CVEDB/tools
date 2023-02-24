@@ -1,0 +1,7 @@
+node_modules/
+worker/
+.cargo-ok
+package-lock.json
+
+# For some reason this wasn't `.gitignore`d by the template? What gives?
+dist/
