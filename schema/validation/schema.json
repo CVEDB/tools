@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/CVEDB/tools/main/schema/validation/schema.json",
+  "title": "CVEDB Identifier",
+  "description": "A schema for describing a CVEDB identifier.",
+  "type": "object",
+  "properties": {
+    "cvedb": {
+      "description": "The CVEDB namespace, uses OSV format",
+      "$ref": "https://raw.githubusercontent.com/ossf/osv-schema/v1.3.1/validation/schema.json"
+    },
+    "namespaces": {
+      "description": "Namespaces for non-CVEDB data",
+      "type": "array",
+      "items": {
+        "type": "object"
+      },
+      "uniqueItems": true
+    }
+  }
+}
