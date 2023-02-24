@@ -2,3 +2,6 @@
 /schema @gitadvisor
 /docker-compose @gitadvisor
 /bot @gitadvisor
+/web @gitadvisor
+/analysis @gitadvisor
+/api @gitadvisor
