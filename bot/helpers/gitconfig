@@ -1,0 +1,8 @@
+[core]
+	askpass = /git-askpass-helper.sh
+[user]
+	email = cvedbbot@log4j.codes
+	name = CVEDB Bot
+
+[credential "https://github.com"]
+        username = gitadvisor
