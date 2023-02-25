@@ -7,14 +7,14 @@ import axios from 'axios'
 // good idea to move this instance creation inside of the
 // "export default () => {}" function below (which runs individually
 // for each client)
-let api, gsdApi;
+let api, cvedbApi;
 
 if (process.env.DEV) {
   api = axios.create({ baseURL: 'https://localhost:8080' })
-  gsdApi = axios.create({ baseURL: 'http://localhost:8787' })
+  cvedbApi = axios.create({ baseURL: 'http://localhost:8787' })
 } else {
   api = axios.create({ baseURL: 'https://cvedb.id' });
-  gsdApi = axios.create({ baseURL: 'https://api.cvedb.id' });
+  cvedbApi = axios.create({ baseURL: 'https://api.cvedb.id' });
 }
 
 export default boot(({ app }) => {
