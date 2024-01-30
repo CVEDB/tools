@@ -25,7 +25,7 @@ defusedxml==0.7.1
 exceptiongroup==1.1.0
 executing==1.2.0
 fastjsonschema==2.16.2
-fonttools==4.38.0
+fonttools==4.43.0
 fqdn==1.5.1
 genson==1.2.2
 gitdb==4.0.10
