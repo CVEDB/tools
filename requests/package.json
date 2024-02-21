@@ -9,7 +9,7 @@
     "views-only": "SESSION_KEY=a CVEDB_VIEW_EDIT=true npm run devstart"
   },
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^0.28.0",
     "body-parser": "^1.18.3",
     "cookie-parser": "~1.4.4",
     "cookie-session": "^1.4.0",
